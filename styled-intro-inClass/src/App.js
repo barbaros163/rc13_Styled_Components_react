@@ -3,7 +3,7 @@ import { Button } from "./components/Button.styled";
 const App = () => {
   return (
     <>
-      <Button />
+      <Button>Click</Button>
     </>
   );
 };
