@@ -6,6 +6,7 @@ export const Button = styled.button`
   background-color: ${(props) => (props.primary ? "white" : "purple")};
   color: ${({ primary }) => (primary ? "purple" : "white")};
   cursor: pointer;
+  width: 7rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   border-color: 1px solid purple;
